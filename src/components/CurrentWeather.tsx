@@ -24,7 +24,7 @@ export function CurrentWeather({ data, locationName }: Props) {
                 <div className="grid gap-6 lg:grid-cols-2">
                     <div className="space-y-4">
                         <div className="space-y-2">
-                            <div className="flex flex-wrap lg:items-end gap-1">
+                            <div className="flex flex-wrap items-end gap-1">
                                 <h2 className="text-xl font-bold tracking-tighter">
                                     {locationName?.name}
                                     {locationName?.state ? "," : null}
